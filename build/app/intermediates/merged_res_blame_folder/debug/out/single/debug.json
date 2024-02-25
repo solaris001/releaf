@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "berlin.tu.releaf.app-merged_res-15:/drawable_ic_launcher.png.flat",
+        "source": "berlin.tu.releaf.app-main-9:/drawable/ic_launcher.png"
+    },
+    {
+        "merged": "berlin.tu.releaf.app-merged_res-15:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "berlin.tu.releaf.app-main-9:/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "berlin.tu.releaf.app-merged_res-15:/drawable_launch_background.xml.flat",
+        "source": "berlin.tu.releaf.app-main-9:/drawable/launch_background.xml"
+    },
+    {
+        "merged": "berlin.tu.releaf.app-merged_res-15:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "berlin.tu.releaf.app-main-9:/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "berlin.tu.releaf.app-merged_res-15:/drawable-v21_ic_launcher.png.flat",
+        "source": "berlin.tu.releaf.app-main-9:/drawable-v21/ic_launcher.png"
+    },
+    {
+        "merged": "berlin.tu.releaf.app-merged_res-15:/drawable-v21_launch_background.xml.flat",
+        "source": "berlin.tu.releaf.app-main-9:/drawable-v21/launch_background.xml"
+    },
+    {
+        "merged": "berlin.tu.releaf.app-merged_res-15:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "berlin.tu.releaf.app-main-9:/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "berlin.tu.releaf.app-merged_res-15:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "berlin.tu.releaf.app-main-9:/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "berlin.tu.releaf.app-merged_res-15:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "berlin.tu.releaf.app-main-9:/mipmap-hdpi/ic_launcher.png"
+    }
+]
