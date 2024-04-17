@@ -13,12 +13,10 @@ import 'package:releaf/services/notify_service.dart';
 import 'package:releaf/utilities/datetime_extension.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:timezone/data/latest.dart' as tz;
-
-// import firebae-core-plugin
 import 'package:firebase_core/firebase_core.dart';
 import 'firebase_options.dart';
-
-// whereever we want to track events do this: 
+import 'package:firebase_auth/firebase_auth.dart';
+// wherever we want to track events do this: 
 import 'package:firebase_analytics/firebase_analytics.dart';
 
 late final SharedPreferences preferencesInstance;
@@ -36,10 +34,6 @@ void main() async {
   tz.initializeTimeZones();
 
   await initializeIntroPage();
-  
-  // using firebase
-  await Firebase.initializeApp(
-  options: DefaultFirebaseOptions.currentPlatform);
 
   // to use firebase and google analytics
   WidgetsFlutterBinding.ensureInitialized();
