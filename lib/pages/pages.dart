@@ -8,3 +8,5 @@ export 'quiz_page.dart';
 export 'settings_page.dart';
 export 'timer_page.dart';
 export 'wiki_page.dart';
+export 'danger_button.dart';
+

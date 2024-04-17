@@ -13,6 +13,7 @@ import 'package:releaf/services/notify_service.dart';
 import 'package:releaf/utilities/datetime_extension.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:timezone/data/latest.dart' as tz;
+import 'package:video_player/video_player.dart';
 
 // import firebae-core-plugin
 import 'package:firebase_core/firebase_core.dart';
@@ -259,6 +260,7 @@ class _MainPageState extends State<MainPage> {
       const TimerPage(),
       const WikiPage(),
       const HappyHourPage(),
+      const DangerButton(),
     ];
   }
 
