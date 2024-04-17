@@ -72,8 +72,10 @@ void main() async {
   );
 }
 
+
 Future<void> initializeIntroPage() async {
   await preferencesInstance.setBool('logged_in', false);
+  await analytics.logEvent(name: 'login_status_set', parameters: {'status': false});
 
   final now = DateTime.now();
   final summerSemester = DateTime(now.year, 04);
@@ -81,22 +83,28 @@ Future<void> initializeIntroPage() async {
   final newSemester =
       now.month == summerSemester.month || now.month == winterSemester.month;
 
+    // Log detection of a new semester
+  await analytics.logEvent(name: 'semester_check', parameters: {'new_semester': newSemester});
+
   final isIntroPageDone = preferencesInstance.getBool('intro_page_done');
 
   // If there is no key value pair in SharedPreferences,
   if (isIntroPageDone == null) {
     await preferencesInstance.setBool('intro_page_done', false);
+    await analytics.logEvent(name: 'intro_page_initialized', parameters: {'initialized': false});
 
     if (newSemester) {
       await preferencesInstance.setBool(
         'first_launch_on_new_semester_done',
         true,
       );
+      await analytics.logEvent(name: 'new_semester_first_launch', parameters: {'status': true});
     } else {
       await preferencesInstance.setBool(
         'first_launch_on_new_semester_done',
         false,
       );
+      await analytics.logEvent(name: 'new_semester_first_launch', parameters: {'status': false});
     }
   } else {
     final isFirstLaunchOnNewSemesterDone =
@@ -108,11 +116,13 @@ Future<void> initializeIntroPage() async {
         true,
       );
       await preferencesInstance.setBool('intro_page_done', false);
+      await analytics.logEvent(name: 'new_semester_reinitialized', parameters: {'intro_page_reset': true});
     } else if (!newSemester) {
       await preferencesInstance.setBool(
         'first_launch_on_new_semester_done',
         false,
       );
+      await analytics.logEvent(name: 'out_of_semester_launch', parameters: {'status': false});
     }
   }
 }
