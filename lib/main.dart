@@ -23,6 +23,9 @@ import 'package:firebase_analytics/firebase_analytics.dart';
 
 late final SharedPreferences preferencesInstance;
 
+// Global FirebaseAnalytics instance
+FirebaseAnalytics analytics = FirebaseAnalytics.instance;
+
 void main() async {
   // has to be initialized for SharedPreferences to be available
   WidgetsFlutterBinding.ensureInitialized();
@@ -44,6 +47,8 @@ void main() async {
   // to use firebase and google analytics
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp();
+
+  analytics = FirebaseAnalytics.instance;  // Ensuring Firebase is initialized before accessing analytics
 
   runApp(
     // Provides stateManagement with access from whole app e.g. via context.watch<WikiProvide>() with automatic rebuild
