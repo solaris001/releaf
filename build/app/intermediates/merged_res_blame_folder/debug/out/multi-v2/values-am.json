@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "berlin.tu.releaf.app-mergeDebugResources-13:/values-am/values-am.xml",
+            "outputFile": "berlin.tu.releaf.app-mergeDebugResources-19:/values-am/values-am.xml",
             "map": [
                 {
-                    "source": "/home/sophia/.gradle/caches/transforms-3/d12883dde0390e08dd2a1192741cec1b/transformed/browser-1.5.0/res/values-am/values-am.xml",
+                    "source": "/home/sophia/.gradle/caches/transforms-3/09d03ee62229f27d112d6e2bf949dc58/transformed/browser-1.5.0/res/values-am/values-am.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",
@@ -13,15 +13,15 @@
                         "endOffsets": "146,241,347,444"
                     },
                     "to": {
-                        "startLines": "9,10,11,12",
+                        "startLines": "10,11,12,13",
                         "startColumns": "4,4,4,4",
-                        "startOffsets": "742,838,933,1039",
+                        "startOffsets": "874,970,1065,1171",
                         "endColumns": "95,94,105,96",
-                        "endOffsets": "833,928,1034,1131"
+                        "endOffsets": "965,1060,1166,1263"
                     }
                 },
                 {
-                    "source": "/home/sophia/.gradle/caches/transforms-3/c4988ff80110f75080a936fc6f044848/transformed/core-1.10.1/res/values-am/values-am.xml",
+                    "source": "/home/sophia/.gradle/caches/transforms-3/18a7f5e1e6c11d26de9342f92785d7ea/transformed/core-1.10.1/res/values-am/values-am.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",
@@ -30,11 +30,84 @@
                         "endOffsets": "143,243,340,439,535,637,737,838"
                     },
                     "to": {
-                        "startLines": "2,3,4,5,6,7,8,13",
+                        "startLines": "2,3,4,5,6,7,8,14",
                         "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,148,248,345,444,540,642,1136",
+                        "startOffsets": "55,148,248,345,444,540,642,1268",
                         "endColumns": "92,99,96,98,95,101,99,100",
-                        "endOffsets": "143,243,340,439,535,637,737,1232"
+                        "endOffsets": "143,243,340,439,535,637,737,1364"
+                    }
+                },
+                {
+                    "source": "/home/sophia/.gradle/caches/transforms-3/b1b34065a9e0fbeb945439284bc5f6a3/transformed/jetified-play-services-basement-18.1.0/res/values-am/values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "195",
+                        "endColumns": "127",
+                        "endOffsets": "322"
+                    },
+                    "to": {
+                        "startLines": "9",
+                        "startColumns": "4",
+                        "startOffsets": "742",
+                        "endColumns": "131",
+                        "endOffsets": "869"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/home/sophia/.gradle/daemon/7.5/berlin.tu.releaf.app-mergeDebugResources-19:/values-am/values-am.xml",
+            "map": [
+                {
+                    "source": "/home/sophia/.gradle/caches/transforms-3/09d03ee62229f27d112d6e2bf949dc58/transformed/browser-1.5.0/res/values-am/values-am.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,151,246,352",
+                        "endColumns": "95,94,105,96",
+                        "endOffsets": "146,241,347,444"
+                    },
+                    "to": {
+                        "startLines": "10,11,12,13",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "874,970,1065,1171",
+                        "endColumns": "95,94,105,96",
+                        "endOffsets": "965,1060,1166,1263"
+                    }
+                },
+                {
+                    "source": "/home/sophia/.gradle/caches/transforms-3/18a7f5e1e6c11d26de9342f92785d7ea/transformed/core-1.10.1/res/values-am/values-am.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,148,248,345,444,540,642,742",
+                        "endColumns": "92,99,96,98,95,101,99,100",
+                        "endOffsets": "143,243,340,439,535,637,737,838"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,14",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,148,248,345,444,540,642,1268",
+                        "endColumns": "92,99,96,98,95,101,99,100",
+                        "endOffsets": "143,243,340,439,535,637,737,1364"
+                    }
+                },
+                {
+                    "source": "/home/sophia/.gradle/caches/transforms-3/b1b34065a9e0fbeb945439284bc5f6a3/transformed/jetified-play-services-basement-18.1.0/res/values-am/values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "195",
+                        "endColumns": "127",
+                        "endOffsets": "322"
+                    },
+                    "to": {
+                        "startLines": "9",
+                        "startColumns": "4",
+                        "startOffsets": "742",
+                        "endColumns": "131",
+                        "endOffsets": "869"
                     }
                 }
             ]

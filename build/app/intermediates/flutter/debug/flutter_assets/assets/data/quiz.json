@@ -1,505 +1,286 @@
 {
-    "categories": [
-        "auditiv",
-        "lesend/\nschriftlich",
-        "kinästhetisch",
-        "visuell"
-    ],
-    "questions": [
+  "categories": [
+        "stress",
+        "time",
+        "focus",
+        "fitness"
+  ],
+  "questions": [
+    {
+      "prompt": "You're studying for an exam and find yourself getting distracted easily. What do you thing is the cause?",
+      "answers": [
         {
-            "prompt": "Du musst einen Test zum Thema “Bestandteile eukaryotischer Tier- und Pflanzenzellen und ihre Funktionen” schreiben. Der Lehrer stellt euch Arbeitsmaterialien verschiedenster Form zusammen und lässt euch die Wahl, welches ihr nutzen wollt. Für welches Material würdest du dich entscheiden?",
-            "answers": [
-                {
-                    "text": "Den Podcast",
-                    "category": 0,
-                    "points": 5
-                },
-                {
-                    "text": "Die Lehrbuchtexte",
-                    "category": 1,
-                    "points": 5
-                },
-                {
-                    "text": "Das Laborpraktikum, in dem die Zellen untersucht werden",
-                    "category": 2,
-                    "points": 5
-                },
-                {
-                    "text": "Die Infografiken",
-                    "category": 3,
-                    "points": 5
-                }
-            ]
+          "text": "Anything social media, working to long on small tasks, not knowing how to start. I get distracted easily",
+          "category": 2,
+          "points": 5
         },
         {
-            "prompt": "In deiner nächsten Klausur solltest du die Anatomie des menschlichen Auges bezeichnen können. Du warst in dieser Vorlesung aber nicht anwesend. Woher beziehst du deine Informationen?",
-            "answers": [
-                {
-                    "text": "Ich höre mir den Audio-Mitschnitt der Vorlesung an",
-                    "category": 0,
-                    "points": 5
-                },
-                {
-                    "text": "Ich lese im Skript nach",
-                    "category": 1,
-                    "points": 5
-                },
-                {
-                    "text": "Ich nutze die Abbildungen aus den Zusatzmaterialien",
-                    "category": 2,
-                    "points": 5
-                },
-                {
-                    "text": "Ich lerne mit dem uns bereitgestellten 3D-Modell des Auges",
-                    "category": 3,
-                    "points": 5
-                }
-            ]
+          "text": "I keep checking my phone and social media, wasting valuable study time.",
+          "category": 1,
+          "points": 5
         },
         {
-            "prompt": "Du bereitest dich auf deine Modulprüfung in einem Grundlagenmodul vor. Welches Lernmaterial nutzt du hierfür am liebsten?",
-            "answers": [
-                {
-                    "text": "Ich spreche mir die Texte ein und höre sie als Podcast an",
-                    "category": 0,
-                    "points": 5
-                },
-                {
-                    "text": "Ich lese die Literatur, auf der dieses Modul aufbaut",
-                    "category": 1,
-                    "points": 5
-                },
-                {
-                    "text": "Ich löse die freiwilligen Zusatz-Übungsaufgaben allein oder in einer Lerngruppe",
-                    "category": 2,
-                    "points": 5
-                },
-                {
-                    "text": "Ich erstelle eigene Mindmaps und Infografiken",
-                    "category": 3,
-                    "points": 5
-                }
-            ]
+          "text": "I am always hungry or feeling tired.",
+          "category": 3,
+          "points": 5
+        } 
+      ]
+    },
+    {
+      "prompt": "How often do you find yourself procrastinating on tasks?",
+      "answers": [
+        {
+          "text": "Never",
+          "category": 1,
+          "points": 1
         },
         {
-            "prompt": "Du und dein Kommilitone sollen in deinem Seminar einen sehr bekannten Artikel eines Journals vorstellen und die Kritik am Artikel mit einbeziehen. Dein Kommilitone bevorzugt das gleiche Vorgehen wie du. Wie geht ihr vor, nachdem ihr euch den ersten Eindruck des Artikels verschaffen konntet?",
-            "answers": [
-                {
-                    "text": "Wir hören uns Beiträge und Diskussionen zu dem Artikel an",
-                    "category": 0,
-                    "points": 5
-                },
-                {
-                    "text": "Wir lesen den Artikel und Rezensionen und schreiben uns die Informationen auf",
-                    "category": 1,
-                    "points": 5
-                },
-                {
-                    "text": "Wir führen ein Rollenspiel durch und versuchen in einer Art Interview den Artikel zu reflektieren",
-                    "category": 2,
-                    "points": 5
-                },
-                {
-                    "text": "Ich hebe wichtige Aspekte des Artikels und der Rezensionen farbig hervor und übertrage sie in eine Übersicht (Mind Map, Infografik, etc.)",
-                    "category": 3,
-                    "points": 5
-                }
-            ]
+          "text": "Rarely",
+          "category": 1,
+          "points": 2
         },
         {
-            "prompt": "Versuche dich an deine bisherigen Erfahrungen des Lernens zu erinnern. Wann behältst du Informationen am besten?",
-            "answers": [
-                {
-                    "text": "Wenn ich sie in einem Vortrag erläutert bekommen habe",
-                    "category": 0,
-                    "points": 5
-                },
-                {
-                    "text": "Wenn ich sie in Texten gelesen habe",
-                    "category": 1,
-                    "points": 5
-                },
-                {
-                    "text": "Wenn ich sie mittels praktischer Übungen vermittelt bekommen habe",
-                    "category": 2,
-                    "points": 5
-                },
-                {
-                    "text": "Wenn ich sie in einem Lernvideo einer Lernplattform visuell aufbereitet vermittelt bekomme (z.B. Studyflix, Youtube, ...)",
-                    "category": 3,
-                    "points": 5
-                }
-            ]
+          "text": "Sometimes",
+          "category": 1,
+          "points": 3
         },
         {
-            "prompt": "Die Prüfungszeit steht vor der Tür. Du bist sehr gestresst und versuchst nun deine Gedanken zu ordnen. Wie gehst du eher vor?",
-            "answers": [
-                {
-                    "text": "Ich erzähle meinem Partner, was ich alles zu tun habe, um mich zu sortieren",
-                    "category": 0,
-                    "points": 5
-                },
-                {
-                    "text": "Ich schreibe eine klassische To-Do-Liste",
-                    "category": 1,
-                    "points": 5
-                },
-                {
-                    "text": "Ich lege mir ein großes Action-Board an meiner Wand oder auf einem Whiteboard an, auf welchem ich meine To-Dos anbringe, anordne und kategorisiere",
-                    "category": 2,
-                    "points": 5
-                },
-                {
-                    "text": "Ich erstelle mir einen Zeitstrahl bis zum Ende der Klausurenphase mit allen damit verbundenen To-Dos",
-                    "category": 3,
-                    "points": 5
-                }
-            ]
+          "text": "Often",
+          "category": 1,
+          "points": 4
         },
         {
-            "prompt": "In der nächsten Seminarstunde will der Seminarleiter euch einen bekannten Maler des Expressionismus präsentieren. Es folgt in der darauffolgenden Stunde hierzu ein Zwischentest. Ihr dürft euch aber die Präsentationsform für die nächste Stunde aussuchen. Für welche Art der Präsentation würdest du dich entscheiden, wenn du bei dem Test möglichst gut abschneiden möchtest?",
-            "answers": [
-                {
-                    "text": "Der Seminarleiter lässt euch einen Podcast hören, in dem ein Kunsthistoriker über den Künstler spricht.",
-                    "category": 0,
-                    "points": 5
-                },
-                {
-                    "text": "Der Seminarleiter lässt euch eine Kurzbiografie über den Künstler lesen",
-                    "category": 1,
-                    "points": 5
-                },
-                {
-                    "text": "Der Seminarleiter besucht mit euch eine Ausstellung des Malers und ihr erfahrt in der Kunstausstellung mehr über ihn",
-                    "category": 2,
-                    "points": 5
-                },
-                {
-                    "text": "Der Seminarleiter zeigt euch eine Video-Doku über den Maler",
-                    "category": 3,
-                    "points": 5
-                }
-            ]
-        },
-        {
-            "prompt": "Du hast dich bei einem Austausch-Programm beworben und hast nun eine Zusage bekommen. Dein Austauschschüler wird dich zuerst besuchen und du möchtest mit ihm einen Trip in eine interessante Stadt in deiner Umgebung besuchen. Du möchtest einen gut informierten und positiven Eindruck vermitteln. Wie bereitest du dich vor, um deinem historisch und kulturell sehr interessierten Austauschschüler die Stadt zu präsentieren?",
-            "answers": [
-                {
-                    "text": "Ich sehe mir (online) die Stadtkarte an und suche die Sehenswürdigkeiten oder Aktivitäten heraus, die ihr/ihm gefallen könnten.",
-                    "category": 3,
-                    "points": 5
-                },
-                {
-                    "text": "Ich lese (online) Reiseführer und Blogbeiträge von Touristen und versuche anhand derer einen Plan zu machen.",
-                    "category": 1,
-                    "points": 5
-                },
-                {
-                    "text": "Ich besuche die Stadt kurzerhand selbst und sehe mich schon einmal vorab um.",
-                    "category": 2,
-                    "points": 5
-                },
-                {
-                    "text": "Ich sehe mir Videobeiträge eines lokalen Fernsehsenders über einige Sehenswürdigkeiten und Attraktionen an.",
-                    "category": 3,
-                    "points": 5
-                }
-            ]
-        },
-        {
-            "prompt": "Unabhängig vom Lernstoff betrachtet, behalte ich am besten Informationen, wenn ich sie...",
-            "answers": [
-                {
-                    "text": "...höre",
-                    "category": 0,
-                    "points": 5
-                },
-                {
-                    "text": "...lese/...schreibe",
-                    "category": 1,
-                    "points": 5
-                },
-                {
-                    "text": "...aktiv, physisch erfahre",
-                    "category": 2,
-                    "points": 5
-                },
-                {
-                    "text": "...visuell vermittelt bekomme",
-                    "category": 3,
-                    "points": 5
-                }
-            ]
-        },
-        {
-            "prompt": "Wenn ich Hörbücher von Sachtexten, Podcasts oder Vorträge höre, kann ich mich im Anschluss gut und langfristig an die Informationen erinnern.",
-            "answers": [
-                {
-                    "text": "Trifft sehr zu",
-                    "category": 0,
-                    "points": 4
-                },
-                {
-                    "text": "Trifft eher zu",
-                    "category": 0,
-                    "points": 3
-                },
-                {
-                    "text": "Neutral",
-                    "category": 0,
-                    "points": 2
-                },
-                {
-                    "text": "Trifft eher nicht zu",
-                    "category": 0,
-                    "points": 1
-                },
-                {
-                    "text": "Trifft gar nicht zu",
-                    "category": 0,
-                    "points": 0
-                }
-            ]
-        },
-        {
-            "prompt": "Informationen spreche ich mir immer wieder laut vor, um sie schnell einzuprägen.",
-            "answers": [
-                {
-                    "text": "Trifft sehr zu",
-                    "category": 0,
-                    "points": 4
-                },
-                {
-                    "text": "Trifft eher zu",
-                    "category": 0,
-                    "points": 3
-                },
-                {
-                    "text": "Neutral",
-                    "category": 0,
-                    "points": 2
-                },
-                {
-                    "text": "Trifft eher nicht zu",
-                    "category": 0,
-                    "points": 1
-                },
-                {
-                    "text": "Trifft gar nicht zu",
-                    "category": 0,
-                    "points": 0
-                }
-            ]
-        },
-        {
-            "prompt": "Mündliche Erklärungen und Diskussionen helfen mir gut, neue Inhalte zu verstehen und sie mir einzuprägen.",
-            "answers": [
-                {
-                    "text": "Trifft sehr zu",
-                    "category": 0,
-                    "points": 4
-                },
-                {
-                    "text": "Trifft eher zu",
-                    "category": 0,
-                    "points": 3
-                },
-                {
-                    "text": "Neutral",
-                    "category": 0,
-                    "points": 2
-                },
-                {
-                    "text": "Trifft eher nicht zu",
-                    "category": 0,
-                    "points": 1
-                },
-                {
-                    "text": "Trifft gar nicht zu",
-                    "category": 0,
-                    "points": 0
-                }
-            ]
-        },
-        {
-            "prompt": "Das Lesen von (weiterführenden) Texten und Vorlesungsskripten hilft mir, schnell neue Inhalte zu verstehen und zu lernen.",
-            "answers": [
-                {
-                    "text": "Trifft sehr zu",
-                    "category": 1,
-                    "points": 4
-                },
-                {
-                    "text": "Trifft eher zu",
-                    "category": 1,
-                    "points": 3
-                },
-                {
-                    "text": "Neutral",
-                    "category": 1,
-                    "points": 2
-                },
-                {
-                    "text": "Trifft eher nicht zu",
-                    "category": 1,
-                    "points": 1
-                },
-                {
-                    "text": "Trifft gar nicht zu",
-                    "category": 1,
-                    "points": 0
-                }
-            ]
-        },
-        {
-            "prompt": "Das Aufschreiben von Informationen hilft mir, mich besser an sie zu erinnern.",
-            "answers": [
-                {
-                    "text": "Trifft sehr zu",
-                    "category": 1,
-                    "points": 4
-                },
-                {
-                    "text": "Trifft eher zu",
-                    "category": 1,
-                    "points": 3
-                },
-                {
-                    "text": "Neutral",
-                    "category": 1,
-                    "points": 2
-                },
-                {
-                    "text": "Trifft eher nicht zu",
-                    "category": 1,
-                    "points": 1
-                },
-                {
-                    "text": "Trifft gar nicht zu",
-                    "category": 1,
-                    "points": 0
-                }
-            ]
-        },
-        {
-            "prompt": "In Vorlesungen und Übungen schreibe ich mir gern Notizen und eigene Zusammenfassungen auf, um das Gelernte zu verarbeiten.",
-            "answers": [
-                {
-                    "text": "Trifft sehr zu",
-                    "category": 1,
-                    "points": 4
-                },
-                {
-                    "text": "Trifft eher zu",
-                    "category": 1,
-                    "points": 3
-                },
-                {
-                    "text": "Neutral",
-                    "category": 1,
-                    "points": 2
-                },
-                {
-                    "text": "Trifft eher nicht zu",
-                    "category": 1,
-                    "points": 1
-                },
-                {
-                    "text": "Trifft gar nicht zu",
-                    "category": 1,
-                    "points": 0
-                }
-            ]
-        },
-        {
-            "prompt": "Beim Lernen hilft mir körperliche Aktivität oder Bewegung, um mich besser konzentrieren zu können und Informationen zu lernen.",
-            "answers": [
-                {
-                    "text": "Trifft sehr zu",
-                    "category": 2,
-                    "points": 4
-                },
-                {
-                    "text": "Trifft eher zu",
-                    "category": 2,
-                    "points": 3
-                },
-                {
-                    "text": "Neutral",
-                    "category": 2,
-                    "points": 2
-                },
-                {
-                    "text": "Trifft eher nicht zu",
-                    "category": 2,
-                    "points": 1
-                },
-                {
-                    "text": "Trifft gar nicht zu",
-                    "category": 2,
-                    "points": 0
-                }
-            ]
-        },
-        {
-            "prompt": "Ich kann mich gut an praktische Erfahrungen erinnern und verstehe Zusammenhänge durch praktische Methoden, wie beispielsweise Laborpraktika, besser.",
-            "answers": [
-                {
-                    "text": "Trifft sehr zu",
-                    "category": 2,
-                    "points": 4
-                },
-                {
-                    "text": "Trifft eher zu",
-                    "category": 2,
-                    "points": 3
-                },
-                {
-                    "text": "Neutral",
-                    "category": 2,
-                    "points": 2
-                },
-                {
-                    "text": "Trifft eher nicht zu",
-                    "category": 2,
-                    "points": 1
-                },
-                {
-                    "text": "Trifft gar nicht zu",
-                    "category": 2,
-                    "points": 0
-                }
-            ]
-        },
-        {
-            "prompt": "Wenn ich mit physischen 3D-Modellen arbeiten und lernen kann, behalte ich Informationen besonders gut.",
-            "answers": [
-                {
-                    "text": "Trifft sehr zu",
-                    "category": 2,
-                    "points": 4
-                },
-                {
-                    "text": "Trifft eher zu",
-                    "category": 2,
-                    "points": 3
-                },
-                {
-                    "text": "Neutral",
-                    "category": 2,
-                    "points": 2
-                },
-                {
-                    "text": "Trifft eher nicht zu",
-                    "category": 2,
-                    "points": 1
-                },
-                {
-                    "text": "Trifft gar nicht zu",
-                    "category": 2,
-                    "points": 0
-                }
-            ]
+          "text": "Always",
+          "category": 1,
+          "points": 5
         }
-    ]
+      ]
+   },
+   {
+      "prompt": "You're feeling tired and sluggish during the day. What's your typical response?",
+      "answers": [
+        {
+          "text": "I push through the fatigue with unhealthy snacks and caffeine.",
+          "category": 0,
+          "points": 5
+        },
+        {
+          "text": "I try to power through my schedule despite feeling tired.",
+          "category": 1,
+          "points": 5
+        },
+        {
+          "text": "I know I should take a walk or a nap...",
+          "category": 3,
+          "points": 5
+        } 
+      ]
+    },
+    {
+      "prompt": "You are at the end of the semester: What situation can you identify with the most?",
+      "answers": [
+        {
+              "text": "I get overwehlemed by all the things I have to do.",
+              "category": 1,
+              "points": 5
+        },
+        {
+            "text": "All I do is study, while coffeein and sweets keep me going.",
+            "category": 3,
+            "points": 5
+        },
+        {
+              "text": "Exams are always a very tough time, because I do not know where to start.",
+              "category": 2,
+              "points": 5
+        },
+        {
+            "text": "All I do is study, sleep and eat.",
+            "category": 0,
+            "points": 5
+        }
+      ]
+    },
+    {
+      "prompt": "How often do you feel overwhelmed by stress?",
+      "answers": [
+        {
+          "text": "Never",
+          "category": 0,
+          "points": 1
+        },
+        {
+          "text": "Rarely",
+          "category": 0,
+          "points": 2
+        },
+        {
+          "text": "Sometimes",
+          "category": 0,
+          "points": 3
+        },
+        {
+          "text": "Often",
+          "category": 0,
+          "points": 4
+        },
+        {
+          "text": "Always",
+          "category": 0,
+          "points": 5
+        }
+      ]
+    },
+    {
+        "prompt": "How often do you find it difficult to focus on a task for an extended period of time?",
+        "answers": [
+        {
+          "text": "Never",
+          "category": 2,
+          "points": 1
+        },
+        {
+          "text": "Rarely",
+          "category": 2,
+          "points": 2
+        },
+        {
+          "text": "Sometimes",
+          "category": 2,
+          "points": 3
+        },
+        {
+          "text": "Often",
+          "category": 2,
+          "points": 4
+        },
+        {
+          "text": "Always",
+          "category": 2,
+          "points": 5
+        }
+      ]
+    },
+    {
+      "prompt": "You're feeling overwhelmed with schoolwork and extracurricular activities. What do you do first?",
+      "answers": [
+        {
+          "text": "I will comfort eat, watch a series/play some games to distract me, go to a party all night.",
+          "category": 3,
+          "points": 5
+        },
+        {
+          "text": "I bottle up my feelings and try to power through everything, feeling increasingly stressed and anxious.",
+          "category": 0,
+          "points": 5
+        },
+        {
+          "text": "I try to do everything at once, feeling scattered and unproductive.",
+          "category": 1,
+          "points": 5
+        },
+        {
+          "text": "I struggle to concentrate on any task due to feeling overwhelmed.",
+          "category": 2,
+          "points": 5
+        }
+      ]
+    },
+    {
+      "prompt": "How often do you get enough exercise?",
+      "answers": [
+        {
+          "text": "Never",
+          "category": 3,
+          "points": 1
+        },
+        {
+          "text": "Rarely",
+          "category": 3,
+          "points": 2
+        },
+        {
+          "text": "Sometimes",
+          "category": 3,
+          "points": 3
+        },
+        {
+          "text": "Often",
+          "category": 3,
+          "points": 4
+        },
+        {
+          "text": "Always",
+          "category": 3,
+          "points": 5
+        }
+      ]
+    },    
+    {
+      "prompt": "You have a big presentation to prepare. How do you plan to do it?",
+      "answers": [
+        {
+          "text": "I do not really plan. I do it when I find time for it.",
+          "category": 1,
+          "points": 5
+        },
+        {
+          "text": "I set it on my To-Do List, but I probably won't start befor it's almost to late.",
+          "category": 0,
+          "points": 5
+        },
+        {
+          "text": "I make some slides real quick and talk through them during the presentation.",
+          "category": 2,
+          "points": 5
+        }
+      ]
+    },
+    {
+      "prompt": "It's the weekend, and you have a free day. How do you typically spend it?",
+      "answers": [
+        {
+          "text": "I spend most of the day catching up on schoolwork, feeling constantly pressured to be productive.",
+          "category": 0,
+          "points": 5
+        },
+        {
+          "text": "I try to fit in all the errands and social activities I neglected during the week, feeling overwhelmed by the to-do list.",
+          "category": 1,
+          "points": 5
+        },
+        {
+          "text": "I struggle to disconnect from schoolwork and find it hard to relax and enjoy my free time.",
+          "category": 2,
+          "points": 5
+        },
+        {
+          "text": "I know I should do some workout, or go outside, but I always have a hard time motivating myself.",
+          "category": 3,
+          "points": 5
+        }
+      ]
+    },
+    {
+      "prompt": "If you could change something in your life. What of the following statements do you agree with the most?",
+      "answers": [
+        {
+          "text": "Working out more, eating better.",
+          "category": 3, 
+          "points": 5
+        },
+        {
+          "text": "Feeling less anxious, and more confident.",
+          "category": 0, 
+          "points": 5
+        },
+        {
+          "text": "Knowing what is important.",
+          "category": 2, 
+          "points": 5
+        }
+      ]
+    }
+  ]
 }
+        

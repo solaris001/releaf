@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "berlin.tu.releaf.app-mergeDebugResources-13:/values-zh-rTW/values-zh-rTW.xml",
+            "outputFile": "berlin.tu.releaf.app-mergeDebugResources-19:/values-zh-rTW/values-zh-rTW.xml",
             "map": [
                 {
-                    "source": "/home/sophia/.gradle/caches/transforms-3/c4988ff80110f75080a936fc6f044848/transformed/core-1.10.1/res/values-zh-rTW/values-zh-rTW.xml",
+                    "source": "/home/sophia/.gradle/caches/transforms-3/18a7f5e1e6c11d26de9342f92785d7ea/transformed/core-1.10.1/res/values-zh-rTW/values-zh-rTW.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",
@@ -13,15 +13,15 @@
                         "endOffsets": "142,241,335,429,522,615,711,812"
                     },
                     "to": {
-                        "startLines": "2,3,4,5,6,7,8,13",
+                        "startLines": "2,3,4,5,6,7,8,14",
                         "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,147,246,340,434,527,620,1086",
+                        "startOffsets": "55,147,246,340,434,527,620,1189",
                         "endColumns": "91,98,93,93,92,92,95,100",
-                        "endOffsets": "142,241,335,429,522,615,711,1182"
+                        "endOffsets": "142,241,335,429,522,615,711,1285"
                     }
                 },
                 {
-                    "source": "/home/sophia/.gradle/caches/transforms-3/d12883dde0390e08dd2a1192741cec1b/transformed/browser-1.5.0/res/values-zh-rTW/values-zh-rTW.xml",
+                    "source": "/home/sophia/.gradle/caches/transforms-3/09d03ee62229f27d112d6e2bf949dc58/transformed/browser-1.5.0/res/values-zh-rTW/values-zh-rTW.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",
@@ -30,11 +30,84 @@
                         "endOffsets": "134,226,327,420"
                     },
                     "to": {
-                        "startLines": "9,10,11,12",
+                        "startLines": "10,11,12,13",
                         "startColumns": "4,4,4,4",
-                        "startOffsets": "716,800,892,993",
+                        "startOffsets": "819,903,995,1096",
                         "endColumns": "83,91,100,92",
-                        "endOffsets": "795,887,988,1081"
+                        "endOffsets": "898,990,1091,1184"
+                    }
+                },
+                {
+                    "source": "/home/sophia/.gradle/caches/transforms-3/b1b34065a9e0fbeb945439284bc5f6a3/transformed/jetified-play-services-basement-18.1.0/res/values-zh-rTW/values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "199",
+                        "endColumns": "98",
+                        "endOffsets": "297"
+                    },
+                    "to": {
+                        "startLines": "9",
+                        "startColumns": "4",
+                        "startOffsets": "716",
+                        "endColumns": "102",
+                        "endOffsets": "814"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/home/sophia/.gradle/daemon/7.5/berlin.tu.releaf.app-mergeDebugResources-19:/values-zh-rTW/values-zh-rTW.xml",
+            "map": [
+                {
+                    "source": "/home/sophia/.gradle/caches/transforms-3/18a7f5e1e6c11d26de9342f92785d7ea/transformed/core-1.10.1/res/values-zh-rTW/values-zh-rTW.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,147,246,340,434,527,620,716",
+                        "endColumns": "91,98,93,93,92,92,95,100",
+                        "endOffsets": "142,241,335,429,522,615,711,812"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,14",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,147,246,340,434,527,620,1189",
+                        "endColumns": "91,98,93,93,92,92,95,100",
+                        "endOffsets": "142,241,335,429,522,615,711,1285"
+                    }
+                },
+                {
+                    "source": "/home/sophia/.gradle/caches/transforms-3/09d03ee62229f27d112d6e2bf949dc58/transformed/browser-1.5.0/res/values-zh-rTW/values-zh-rTW.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,139,231,332",
+                        "endColumns": "83,91,100,92",
+                        "endOffsets": "134,226,327,420"
+                    },
+                    "to": {
+                        "startLines": "10,11,12,13",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "819,903,995,1096",
+                        "endColumns": "83,91,100,92",
+                        "endOffsets": "898,990,1091,1184"
+                    }
+                },
+                {
+                    "source": "/home/sophia/.gradle/caches/transforms-3/b1b34065a9e0fbeb945439284bc5f6a3/transformed/jetified-play-services-basement-18.1.0/res/values-zh-rTW/values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "199",
+                        "endColumns": "98",
+                        "endOffsets": "297"
+                    },
+                    "to": {
+                        "startLines": "9",
+                        "startColumns": "4",
+                        "startOffsets": "716",
+                        "endColumns": "102",
+                        "endOffsets": "814"
                     }
                 }
             ]
