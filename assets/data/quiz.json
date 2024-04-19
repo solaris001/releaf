@@ -1,9 +1,9 @@
 {
   "categories": [
-        "stress",
-        "time",
-        "focus",
-        "fitness"
+    "stress",
+    "time",
+    "focus",
+    "fitness"
   ],
   "questions": [
     {
@@ -23,7 +23,7 @@
           "text": "I am always hungry or feeling tired.",
           "category": 3,
           "points": 5
-        } 
+        }
       ]
     },
     {
@@ -55,8 +55,8 @@
           "points": 5
         }
       ]
-   },
-   {
+    },
+    {
       "prompt": "You're feeling tired and sluggish during the day. What's your typical response?",
       "answers": [
         {
@@ -73,31 +73,31 @@
           "text": "I know I should take a walk or a nap...",
           "category": 3,
           "points": 5
-        } 
+        }
       ]
     },
     {
       "prompt": "You are at the end of the semester: What situation can you identify with the most?",
       "answers": [
         {
-              "text": "I get overwehlemed by all the things I have to do.",
-              "category": 1,
-              "points": 5
+          "text": "I get overwhelmed by all the things I have to do.",
+          "category": 1,
+          "points": 5
         },
         {
-            "text": "All I do is study, while coffeein and sweets keep me going.",
-            "category": 3,
-            "points": 5
+          "text": "All I do is study, while coffein and sweets keep me going.",
+          "category": 3,
+          "points": 5
         },
         {
-              "text": "Exams are always a very tough time, because I do not know where to start.",
-              "category": 2,
-              "points": 5
+          "text": "Exams are always a very tough time, because I do not know where to start.",
+          "category": 2,
+          "points": 5
         },
         {
-            "text": "All I do is study, sleep and eat.",
-            "category": 0,
-            "points": 5
+          "text": "All I do is study, sleep and eat.",
+          "category": 0,
+          "points": 5
         }
       ]
     },
@@ -132,8 +132,8 @@
       ]
     },
     {
-        "prompt": "How often do you find it difficult to focus on a task for an extended period of time?",
-        "answers": [
+      "prompt": "How often do you find it difficult to focus on a task for an extended period of time?",
+      "answers": [
         {
           "text": "Never",
           "category": 2,
@@ -215,7 +215,7 @@
           "points": 5
         }
       ]
-    },    
+    },
     {
       "prompt": "You have a big presentation to prepare. How do you plan to do it?",
       "answers": [
@@ -225,7 +225,7 @@
           "points": 5
         },
         {
-          "text": "I set it on my To-Do List, but I probably won't start befor it's almost to late.",
+          "text": "I set it on my To-Do List, but I probably won't start before it's almost to late.",
           "category": 0,
           "points": 5
         },
@@ -266,21 +266,20 @@
       "answers": [
         {
           "text": "Working out more, eating better.",
-          "category": 3, 
+          "category": 3,
           "points": 5
         },
         {
           "text": "Feeling less anxious, and more confident.",
-          "category": 0, 
+          "category": 0,
           "points": 5
         },
         {
           "text": "Knowing what is important.",
-          "category": 2, 
+          "category": 2,
           "points": 5
         }
       ]
     }
   ]
 }
-        
